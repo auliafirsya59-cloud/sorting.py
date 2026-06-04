@@ -4,7 +4,7 @@ import time
 st.title("visualisasi sorting")
 
 #1. Kontrol UI imput data dan algoritma
-col1, col2 = st.colums(2)
+col1, col2 = st.columns(2)
 algo = col1.selection ("Pilih algoriitma", ["bubble sort", "selection sort", "insertion sort"])
 user_input = col2.text_input("input data (pisahkan koma)", "85, 60, 92, 75, 88")
 
